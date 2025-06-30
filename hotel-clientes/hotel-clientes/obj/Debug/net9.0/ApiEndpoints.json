@@ -1,0 +1,86 @@
+[
+  {
+    "ContainingType": "hotel_clientes.Controllers.ClientesController",
+    "Method": "ObtenerCambiarCorreo",
+    "RelativePath": "api/Clientes/cambiar_correo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "hotel_clientes.DTO.ClienteCorreoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "hotel_clientes.Controllers.ClientesController",
+    "Method": "ObtenerCambiarTelefono",
+    "RelativePath": "api/Clientes/cambiar_telefono",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "hotel_clientes.DTO.ClienteTelefonoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "hotel_clientes.Controllers.ClientesController",
+    "Method": "ObtenerCliente",
+    "RelativePath": "api/Clientes/obtener_cliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rut_cliente",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "hotel_clientes.Controllers.ClientesController",
+    "Method": "ObtenerTodos",
+    "RelativePath": "api/Clientes/obtener_clientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "hotel_clientes.Controllers.LocalizacionController",
+    "Method": "ObtenerCiudades",
+    "RelativePath": "api/Localizacion/obtener_ciudades",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "hotel_clientes.Controllers.LocalizacionController",
+    "Method": "ObtenerComunasCiudad",
+    "RelativePath": "api/Localizacion/obtener_comunas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ciudad",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

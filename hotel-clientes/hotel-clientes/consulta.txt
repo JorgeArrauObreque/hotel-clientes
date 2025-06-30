@@ -1,0 +1,1 @@
+Scaffold-DbContext  "Server=.\SQLEXPRESS;Database=FacturacionHotel;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models  -Tables clientes, cliente_estado, cliente_nivel_membresia, ciudad, comuna
