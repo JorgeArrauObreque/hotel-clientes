@@ -4990,11 +4990,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nacho\\source\\repos\\hotel-clientes\\hotel-clientes\\hotel-clientes.csproj",
+      "projectUniqueName": "D:\\git\\hotel-clientes\\hotel-clientes\\hotel-clientes\\hotel-clientes.csproj",
       "projectName": "hotel-clientes",
-      "projectPath": "C:\\Users\\nacho\\source\\repos\\hotel-clientes\\hotel-clientes\\hotel-clientes.csproj",
+      "projectPath": "D:\\git\\hotel-clientes\\hotel-clientes\\hotel-clientes\\hotel-clientes.csproj",
       "packagesPath": "C:\\Users\\nacho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nacho\\source\\repos\\hotel-clientes\\hotel-clientes\\obj\\",
+      "outputPath": "D:\\git\\hotel-clientes\\hotel-clientes\\hotel-clientes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
