@@ -19,7 +19,7 @@ public partial class Cliente
 
     public DateTime FechaActualizacion { get; set; }
 
-    public int Estado { get; set; }
+    public int IdEstado { get; set; }
 
     public int IdComuna { get; set; }
 
@@ -42,6 +42,8 @@ public partial class Cliente
     public int? IdNivelMembresia { get; set; }
 
     public virtual Comuna IdComunaNavigation { get; set; } = null!;
+
+    public virtual ClienteEstado IdEstadoNavigation { get; set; } = null!;
 
     public virtual ClienteNivelMembresium? IdNivelMembresiaNavigation { get; set; }
 }

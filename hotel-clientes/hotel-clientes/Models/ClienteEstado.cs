@@ -12,4 +12,6 @@ public partial class ClienteEstado
     public DateTime FechaIngreso { get; set; }
 
     public DateTime FechaActualizacion { get; set; }
+
+    public virtual ICollection<Cliente> Clientes { get; set; } = new List<Cliente>();
 }
